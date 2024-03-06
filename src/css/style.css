@@ -1,0 +1,27 @@
+.gnom-game {
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    cursor: url('../img/hammer.png'), default;
+}
+
+.gnom {
+    width: 100px;
+    height: 100px;
+    margin: 0 15px 30px;
+    background: greenyellow;
+    border-radius: 50%;
+}
+
+.gnom-img {
+    background: url('../img/goblin.png');
+    background-size: cover;
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+}
+
+.score-container {
+    margin-top: 20px;
+}
