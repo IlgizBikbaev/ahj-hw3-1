@@ -1,5 +1,5 @@
 export default function hummerClick(timerId) {
-  const dead = document.querySelector(".dead-hit");
+  const dead = document.querySelector(".hit-dead");
   const lost = document.querySelector(".miss-lost");
   const fieldCells = document.querySelectorAll(".gnom");
 
@@ -13,7 +13,7 @@ export default function hummerClick(timerId) {
         dead.textContent = countDead;
       } else {
         countMiss += 1;
-        lost.textContent = lost;
+        lost.textContent = countMiss;
       }
 
       if (countDead === 10) {
